@@ -16,7 +16,7 @@ def check_number1(s):
 def check_number2(s):
     if s.isnumeric():
         if(len(s)>2):
-            s = int(S)
+            s = int(s)
             s%= 100
             s = "0" + str(s)
         return s
